@@ -9,7 +9,7 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  services.getty.autologinUser = "pigirl";
+#  services.getty.autologinUser = "pigirl";
 
   networking.hostName = "nixos";
   networking.networkmanager.enable = true;
@@ -18,7 +18,7 @@
 
   programs.hyprland = {
     enable = true;
-    withUWSM = true;
+ #   withUWSM = true;
     xwayland.enable = true;
   };
 
