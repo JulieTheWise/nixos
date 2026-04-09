@@ -10,10 +10,10 @@
     shellAliases = {
       btw = "echo i use nixos, btw";
     };
-    profileExtra = ''
-      if [ -z "$WAYLAND_DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
-        exec uwsm start -S hyprland-uwsm.desktop
-      fi
-    '';
+#    profileExtra = ''
+#      if [ -z "$WAYLAND_DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
+#        exec uwsm start -S hyprland-uwsm.desktop
+#      fi
+#    '';
   };
 }
